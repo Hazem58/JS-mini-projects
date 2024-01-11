@@ -1,1 +1,0 @@
-## JavaScript Simple Calculater Project
