@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    background: linear-gradient(45deg, rgb(0, 119, 255), rgb(115, 255, 115));
+    display: grid;
+    place-items: center;
+}
+.container {
+    border: 1px solid black;
+    width: clamp(300px, 70%, 650px);
+    display: flex;
+    flex-direction: column;
+}
+[name=numbers] {
+    outline: none;
+    width: 100%;
+    font-size: 4rem;
+    padding: 0 0.5rem;
+    border: 1px solid #000;
+    background-color: transparent;
+    color: #ffffff;
+}
+.btns {
+    display: flex;
+    flex-wrap: wrap;
+}
+.btn {
+    flex: 0 0 25%;
+}
+.btn-1{
+    flex: 0 0 50%;
+}
+[type=button] {
+    padding: 1.5rem 1rem;
+    border: 1px solid #000;
+    background-color: transparent;
+    color: #fff;
+    font-size: 1.3em;
+    cursor: pointer;
+}
+@media screen and (min-width: 780px) {
+    [name=numbers] {
+        font-size: 7rem;
+    }
+    [type=button] {
+        font-size: 3rem;
+        padding: 1.8rem 1.1rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
